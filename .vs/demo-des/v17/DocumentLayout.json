@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Mat ma ung dung\\demo-des\\",
+  "WorkspaceRootPath": "D:\\Mat ma ung dung\\re-demo\\re-demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|D:\\Mat ma ung dung\\demo-des\\demo-des\\thanhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|d:\\mat ma ung dung\\re-demo\\re-demo\\demo-des\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|solutionrelative:demo-des\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|solutionrelative:demo-des\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\thanhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|solutionrelative:demo-des\\thanhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|solutionrelative:demo-des\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\thongtin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|solutionrelative:demo-des\\thongtin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C08B1B-C49D-42EA-AC9E-C6BB734CBBD5}|demo-des\\demo-des.csproj|solutionrelative:demo-des\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "thanhvien.cs",
-              "DocumentMoniker": "D:\\Mat ma ung dung\\demo-des\\demo-des\\thanhvien.cs",
+              "DocumentMoniker": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\thanhvien.cs",
               "RelativeDocumentMoniker": "demo-des\\thanhvien.cs",
-              "ToolTip": "D:\\Mat ma ung dung\\demo-des\\demo-des\\thanhvien.cs",
+              "ToolTip": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\thanhvien.cs",
               "RelativeToolTip": "demo-des\\thanhvien.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T03:55:52.109Z",
+              "WhenOpened": "2024-04-23T10:20:03.896Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrangChu.cs [Design]",
+              "DocumentMoniker": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\TrangChu.cs",
+              "RelativeDocumentMoniker": "demo-des\\TrangChu.cs",
+              "ToolTip": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\TrangChu.cs [Design]",
+              "RelativeToolTip": "demo-des\\TrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T11:22:23.2Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrangChu.cs",
+              "DocumentMoniker": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\TrangChu.cs",
+              "RelativeDocumentMoniker": "demo-des\\TrangChu.cs",
+              "ToolTip": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\TrangChu.cs",
+              "RelativeToolTip": "demo-des\\TrangChu.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAwDAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:33:22.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThongTin.cs [Design]",
+              "DocumentMoniker": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\ThongTin.cs",
+              "RelativeDocumentMoniker": "demo-des\\ThongTin.cs",
+              "ToolTip": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\ThongTin.cs [Design]",
+              "RelativeToolTip": "demo-des\\ThongTin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:33:03.177Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThongTin.Designer.cs",
+              "DocumentMoniker": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\ThongTin.Designer.cs",
+              "RelativeDocumentMoniker": "demo-des\\ThongTin.Designer.cs",
+              "ToolTip": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\ThongTin.Designer.cs",
+              "RelativeToolTip": "demo-des\\ThongTin.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:32:52.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThongTin.cs",
+              "DocumentMoniker": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\ThongTin.cs",
+              "RelativeDocumentMoniker": "demo-des\\ThongTin.cs",
+              "ToolTip": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\ThongTin.cs",
+              "RelativeToolTip": "demo-des\\ThongTin.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwEoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:28:03.491Z",
               "EditorCaption": ""
             }
           ]
