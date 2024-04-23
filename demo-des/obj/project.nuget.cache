@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cd6zrfIF+ZRKRwhRt8IyjuJ6wAPB7IWhEbvU4rWIgqlWlNMM/m2GSnlzewA9aHRyIh+21U0YyjSveHJVH9Cwyg==",
+  "dgSpecHash": "aaZyT/ED+1gXgTq4WjQSKRHYYf9TYMgtJArwA+D5KCQNRI4OHYmXUw4cVuHyQbNMY50EHdi4MW6WHJW187X24A==",
   "success": true,
-  "projectFilePath": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\demo-des.csproj",
+  "projectFilePath": "D:\\Mat ma ung dung\\re-demo\\demo-des\\demo-des.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\firesharp\\2.0.4\\firesharp.2.0.4.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",

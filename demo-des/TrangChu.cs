@@ -44,6 +44,7 @@ namespace demo_des
                 //giải mã trong chuổi
                 FirebaseResponse response = client.Get("usersclb/");
                 Dictionary<string, thanhvien> result = response.ResultAs<Dictionary<string, thanhvien>>();
+                bool check = false;
                 foreach (var u in result)
                 {
                     string username = u.Value.Username;
@@ -59,11 +60,17 @@ namespace demo_des
 
                         //mở form thông tin lên
                         MessageBox.Show("Đăng nhập thành công...");
+                        check = true;
                         ThongTin thongtin = new ThongTin();
                         thongtin.lbl_username.Text = txt_login_username.Text; //update username
                         thongtin.ShowDialog();
                         this.Hide();
                     }
+                    
+                }
+                if(!check)
+                {
+                    MessageBox.Show("Không tồn tại tài khoản vui lòng đăng kí...");
                 }
             }
 

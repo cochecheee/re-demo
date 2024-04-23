@@ -531,11 +531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\demo-des.csproj",
+      "projectUniqueName": "D:\\Mat ma ung dung\\re-demo\\demo-des\\demo-des.csproj",
       "projectName": "demo-des",
-      "projectPath": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\demo-des.csproj",
+      "projectPath": "D:\\Mat ma ung dung\\re-demo\\demo-des\\demo-des.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Mat ma ung dung\\re-demo\\re-demo\\demo-des\\obj\\",
+      "outputPath": "D:\\Mat ma ung dung\\re-demo\\demo-des\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="demo_des.thanhvien">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAQAAgAEAAAIAAAAiACAAIgAgAAA=</HashCode>
+      <FileName>thanhvien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demo_des.key">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>key.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
