@@ -117,6 +117,13 @@ namespace demo_des
             {
                 // cập nhật dữ liệu lên firebase
                 string username = txt_signup_username.Text;
+                // Lấy dữ liệu từ Firebase
+                FirebaseResponse check = client.Get("usersclb/" + username);
+                if (check.Body != "null") // Check if data exists for the username
+                {
+                    MessageBox.Show("Tên người dùng đã tồn tại.");
+                    return;
+                }
                 string password = txt_signup_password.Text;
                 string phone = txt_signup_phone.Text;
                 string address = txt_signup_address.Text;

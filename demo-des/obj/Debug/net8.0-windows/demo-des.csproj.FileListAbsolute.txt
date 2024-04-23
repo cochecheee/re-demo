@@ -85,3 +85,8 @@ D:\Mat ma ung dung\re-demo\demo-des\obj\Debug\net8.0-windows\demo-des.csproj.Up2
 D:\Mat ma ung dung\re-demo\demo-des\obj\Debug\net8.0-windows\demo-des.dll
 D:\Mat ma ung dung\re-demo\demo-des\obj\Debug\net8.0-windows\refint\demo-des.dll
 D:\Mat ma ung dung\re-demo\demo-des\obj\Debug\net8.0-windows\demo-des.pdb
+D:\Mat ma ung dung\re-demo\demo-des\bin\Debug\net8.0-windows\demo-des.deps.json
+D:\Mat ma ung dung\re-demo\demo-des\bin\Debug\net8.0-windows\demo-des.runtimeconfig.json
+D:\Mat ma ung dung\re-demo\demo-des\bin\Debug\net8.0-windows\demo-des.pdb
+D:\Mat ma ung dung\re-demo\demo-des\obj\Debug\net8.0-windows\demo-des.genruntimeconfig.cache
+D:\Mat ma ung dung\re-demo\demo-des\obj\Debug\net8.0-windows\ref\demo-des.dll
