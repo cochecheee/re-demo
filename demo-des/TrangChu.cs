@@ -21,7 +21,7 @@ namespace demo_des
         public TrangChu()
         {
             InitializeComponent();
-            
+
         }
         //kết nối project với firebase
         IFirebaseConfig config = new FirebaseConfig()
@@ -59,6 +59,10 @@ namespace demo_des
 
                         //mở form thông tin lên
                         MessageBox.Show("Đăng nhập thành công...");
+                        ThongTin thongtin = new ThongTin();
+                        thongtin.lbl_username.Text = txt_login_username.Text; //update username
+                        thongtin.ShowDialog();
+                        this.Hide();
                     }
                 }
             }
@@ -67,7 +71,7 @@ namespace demo_des
         //khởi tạo firebase
         private void TrangChu_Load(object sender, EventArgs e)
         {
-            
+
             try
             {
                 client = new FirebaseClient(config);
@@ -94,10 +98,10 @@ namespace demo_des
         private void btn_signup_Click(object sender, EventArgs e)
         {
             //kiểm tra input đầu vào
-            if(string.IsNullOrEmpty(txt_signup_username.Text) || string.IsNullOrEmpty(txt_signup_password.Text)
+            if (string.IsNullOrEmpty(txt_signup_username.Text) || string.IsNullOrEmpty(txt_signup_password.Text)
                 || string.IsNullOrEmpty(txt_signup_phone.Text) || string.IsNullOrEmpty(cb_club.Text)
                 || string.IsNullOrEmpty(txt_signup_address.Text) ||
-                (!rbtn_female.Checked && !rbtn_gender_khac.Checked && !rbtn_male.Checked)) 
+                (!rbtn_female.Checked && !rbtn_gender_khac.Checked && !rbtn_male.Checked))
             {
                 MessageBox.Show("Điền đẩy đủ thông tin cá nhân để đăng nhập..");
                 return;
@@ -111,10 +115,11 @@ namespace demo_des
                 string address = txt_signup_address.Text;
                 string clb = cb_club.Text;
                 string gender = "";
-                if(rbtn_female.Checked)
+                if (rbtn_female.Checked)
                 {
                     gender = "Female";
-                }else if(rbtn_male.Checked)
+                }
+                else if (rbtn_male.Checked)
                 {
                     gender = "Male";
                 }
@@ -146,7 +151,8 @@ namespace demo_des
                     FirebaseResponse response = client.Set("usersclb/" + txt_signup_username.Text, newUser);
                     thanhvien result = response.ResultAs<thanhvien>();
                     MessageBox.Show("Update thành công");
-                }catch
+                }
+                catch
                 {
                     MessageBox.Show("Error from line 114 -> 140");
                 }
