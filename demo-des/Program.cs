@@ -12,7 +12,7 @@
             // see https://aka.ms/applicationconfiguration.
             //hiển thị UI
             ApplicationConfiguration.Initialize();
-            Application.Run(new TrangChuCLB());
+            Application.Run(new TrangChu());
         
         }
     }
