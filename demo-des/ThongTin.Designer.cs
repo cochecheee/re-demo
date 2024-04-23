@@ -72,6 +72,7 @@
             guna2Panel1.Controls.Add(guna2CirclePictureBox1);
             guna2Panel1.CustomizableEdges = customizableEdges2;
             guna2Panel1.Dock = DockStyle.Left;
+            guna2Panel1.Font = new Font("Segoe UI Semibold", 14F, FontStyle.Bold);
             guna2Panel1.Location = new Point(0, 0);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges3;
@@ -82,10 +83,11 @@
             // 
             lbl_username.AutoSize = false;
             lbl_username.BackColor = Color.Transparent;
+            lbl_username.Font = new Font("Sitka Display", 12F, FontStyle.Bold);
             lbl_username.ForeColor = Color.Brown;
-            lbl_username.Location = new Point(24, 245);
+            lbl_username.Location = new Point(12, 216);
             lbl_username.Name = "lbl_username";
-            lbl_username.Size = new Size(180, 61);
+            lbl_username.Size = new Size(193, 75);
             lbl_username.TabIndex = 2;
             lbl_username.Text = "update username";
             lbl_username.TextAlignment = ContentAlignment.MiddleCenter;
